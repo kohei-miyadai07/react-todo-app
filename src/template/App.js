@@ -1,6 +1,6 @@
-import './Todo.css';
+import '../css/Todo.css';
 import React, { useState } from 'react';
-import ShowTodoList from './ShowTodoList';
+import ShowTodoList from '../component/ShowTodoList';
 
 export const App = () => {
   const [todoText, setTodoText] = useState("");
