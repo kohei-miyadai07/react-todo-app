@@ -1,4 +1,3 @@
-import '../css/Todo.css';
 import React, { useState } from 'react';
 import ShowTodoList from '../component/ShowTodoList';
 
