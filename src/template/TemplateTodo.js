@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BasePage } from "../component/BasePage";
 import ShowTodoList from "../component/ShowTodoList";
 
-export const Todo = () => {
+export const TemplateTodo = () => {
   const [todoText, setTodoText] = useState("");
   const [todoList, setTodoList] = useState([]);
 
@@ -60,4 +60,4 @@ export const Todo = () => {
   );
 };
 
-export default Todo;
+export default TemplateTodo;
